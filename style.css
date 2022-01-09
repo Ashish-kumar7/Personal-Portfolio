@@ -200,7 +200,7 @@ section .title::after{
 .home .home-content a{
     display: inline-block;
     background: rgb(6, 110, 179);
-    color: #fff;
+    color: rgb(245, 248, 245);
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
@@ -244,11 +244,11 @@ section .title::after{
 .about .about-content .right a{
     display: inline-block;
     background: rgb(6, 110, 179);
-    color: #fff;
+    color: rgb(245, 248, 245);
     font-size: 20px;
-    font-weight: 500;
-    padding: 10px 30px;
+    padding: 6px 16px;
     margin-top: 20px;
+    font-weight: 400;
     border-radius: 6px;
     border: 2px solid rgb(6, 110, 179);
     transition: all 0.3s ease;
@@ -267,11 +267,7 @@ section .title::after{
 .education .title::before{
     background: #fff;
 }
-/* .projects .title::after,
-.education .title::after{
-    background: #111;
-    content: "what i provide";
-} */
+
 .projects .serv-content .card{
     width: calc(33% - 20px);
     background: #222;
@@ -304,11 +300,7 @@ section .title::after{
     margin: 10px 10 7px 10;
 }
 
-/* skills section styling */
 
-/* .skills .title::after{
-    content: "what i know";
-} */
 .skills .skills-content .column{
     width: calc(50% - 30px);
 }
@@ -379,10 +371,7 @@ section .title::after{
     width: 70%;
 }
 
-/* education section styling */
-/* .education .title::after{
-    content: "who with me";
-} */
+
 .education .carousel .card{
     background: #222;
     border-radius: 6px;
@@ -442,10 +431,7 @@ section .title::after{
     background: rgb(6, 110, 179)!important;
 }
 
-/* contact section styling */
-/* .contact .title::after{
-    content: "get in touch";
-} */
+
 .contact .contact-content .column{
     width: calc(50% - 30px);
 }
@@ -476,7 +462,7 @@ section .title::after{
     font-weight: 500;
 }
 .contact .contact-content .info .sub-title{
-    color: #333;
+    color: rgb(10, 10, 10);
 }
 .contact .right form .fields{
     display: flex;
